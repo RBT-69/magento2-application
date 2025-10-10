@@ -5,14 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Application;
+namespace Opengento\Application\ObjectManager;
 
 use Magento\Framework\App\AreaList;
 use Magento\Framework\App\State;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\ObjectManager\ConfigLoaderInterface;
-use Opengento\Application\AppBootstrap;
-use Opengento\Application\AppObjectManagerFactory;
 
 use function strtok;
 use function trim;
