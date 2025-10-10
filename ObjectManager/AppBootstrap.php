@@ -5,14 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Application;
+namespace Opengento\Application\ObjectManager;
 
 use Magento\Framework\App\Bootstrap;
 use Magento\Framework\App\ObjectManagerFactory;
 use Magento\Framework\App\State\ReloadProcessorInterface;
 use Magento\Framework\AppInterface;
 use Magento\Framework\ObjectManager\ResetAfterRequestInterface;
-use Opengento\Application\AppObjectManagerFactory;
 
 use function gc_collect_cycles;
 
