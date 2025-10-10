@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Application;
+namespace Opengento\Application\ObjectManager;
 
 use Magento\Framework\App\ObjectManager;
 use Magento\Framework\ObjectManager\ConfigInterface;
