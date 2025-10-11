@@ -47,8 +47,8 @@ class BootstrapPool
     {
         $bootstrap = AppBootstrap::create(BP, $_SERVER, $this->factory);
         $globalObjectManager = $bootstrap->getObjectManager();
-        $globalObjectManager->configure($globalObjectManager->get(ConfigLoaderInterface::class)->load($areaCode));
         $globalObjectManager->get(State::class)->setAreaCode($areaCode);
+        $globalObjectManager->configure($globalObjectManager->get(ConfigLoaderInterface::class)->load($areaCode));
 
         return $bootstrap;
     }
