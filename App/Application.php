@@ -10,11 +10,13 @@ namespace Opengento\Application\App;
 use Exception;
 use InvalidArgumentException;
 use Magento\Framework\App;
+use Magento\Framework\App\Bootstrap;
 use Magento\Framework\App\ExceptionHandlerInterface;
 use Magento\Framework\App\FrontControllerInterface as FrontController;
 use Magento\Framework\App\HttpRequestInterface;
-use Magento\Framework\App\Response\Http;
+use Magento\Framework\App\Response\Http as HttpResponse;
 use Magento\Framework\App\Response\HttpInterface;
+use Magento\Framework\App\Request\Http as HttpRequest;
 use Magento\Framework\AppInterface;
 use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\Event\Manager;
@@ -28,8 +30,8 @@ class Application implements AppInterface
         private Manager $eventManager,
         private Registry $registry,
         private ExceptionHandlerInterface $exceptionHandler,
-        private Http $response,
-        private App\Request\Http $request,
+        private HttpResponse $response,
+        private HttpRequest $request,
     ) {}
 
     /**
@@ -57,7 +59,7 @@ class Application implements AppInterface
     /**
      * @inheritdoc
      */
-    public function catchException(App\Bootstrap $bootstrap, Exception $exception): bool
+    public function catchException(Bootstrap $bootstrap, Exception $exception): bool
     {
         return $this->exceptionHandler->handle($bootstrap, $exception, $this->response, $this->request);
     }
