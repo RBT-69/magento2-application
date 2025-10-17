@@ -14,7 +14,8 @@
     "require": {
         "php": "^8.3",
         "psr/log": "*",
-        "magento/framework": "*"
+        "magento/framework": "*",
+        "magento/module-media-storage": "*"
     },
     "require-dev": {
         "magento/magento-coding-standard": "^33",
