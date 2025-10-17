@@ -35,7 +35,8 @@ class BootstrapPool
      */
     public function get(): AppBootstrap
     {
-        $areaCode = $this->areaList->getCodeByFrontName(strtok(trim($_SERVER['REQUEST_URI'], '/'), '/'));
+        $pathInfo = $_GET['resource'] ?? $_SERVER['REQUEST_URI'];
+        $areaCode = $this->areaList->getCodeByFrontName(strtok(trim($pathInfo, '/'), '/'));
 
         return $this->bootstraps[$areaCode] ??= $this->createBootstrap($areaCode);
     }
