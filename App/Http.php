@@ -23,7 +23,7 @@ use Magento\Framework\Event\Manager;
 use Magento\Framework\ObjectManagerInterface;
 use Magento\Framework\Registry;
 
-class Application implements AppInterface
+class Http implements AppInterface
 {
     public function __construct(
         private ObjectManagerInterface $objectManager,
